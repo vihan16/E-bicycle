@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Nighthawk",
+    "price": "500,000",
+    "detail": "Full Suspension MTB E-Bike,Aluminium Alloy 6061 Frame,Tektro 2 Piston Hydraulic Disc Brakes",
+    "image": "./cycle5.png"
+  },
+  {
+    "name": "EMX+",
+    "price": "64,999",
+    "detail": "Full Suspension MTB E-Bike,Front Fork Suspension with 100mm Travel and Lockout",
+    "image": "./cycle1.png"
+  },
+  {
+    "name": "X1",
+    "price": "35,999",
+    "detail": "Full Suspension MTB Bike,Front Fork Suspension with 100mm Travel and Lockout,Dual Mechanical Disc Brakes with Auto Cut-off",
+    "image": "./cycle2.png"
+  },
+  {
+    "name": "EMX Aqua",
+    "price": "58,999",
+    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "./cycle3.png"
+  },
+  {
+    "name": "Desert Eagle",
+    "price": "475,000",
+    "detail": "Full Suspension MTB E-Bike,Aluminium Alloy 6061 Frame,Tektro 2 Piston Hydraulic Disc Brakes",
+    "image": "./cycle4.png"
+  },
+  {
+    "name": "Doodle v2",
+    "price": "46,499",
+    "detail": "Full Suspension MTB E-Bike,Front Fork Suspension with 100mm Travel and Lockout",
+    "image": "./cycle6.png"
+  }
+]

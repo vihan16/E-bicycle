@@ -1,0 +1,170 @@
+:root {
+  --primary: #1f3e72;
+  --secondary: rgba(255, 255, 255, 0.78);
+  --black: #020202;
+  --blue-gradient: linear-gradient(97.05deg, #efa159 3.76%, #ff922d 100%);
+  --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
+  --blue: #ff9040;
+  --lightBlue: #fef3e6;
+  --shadow: 0px 23px 21px -8px rgba(255, 195, 136, 0.25);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.paddings {
+  padding: 1.5rem;
+}
+
+.innerWidth {
+  width: 100%;
+}
+
+.flexCenter {
+  display: flex;
+  row-gap: 2rem;
+  /* justify-content: center; */
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flexStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flexColCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flexColLeft {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+}
+.flexColStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.flexColEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.primaryText {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.footerText {
+  color: #ff922d;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.secondaryText {
+  color: rgb(140 139 139);
+  font-size: 1rem;
+}
+
+.priGetStarted{
+  color: #ff922d;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.secGetStarted{
+  color:beige;
+  font-size: 1.5rem;
+
+}
+.orangeText {
+  color: #ff922d;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.biCycle{
+  background-color: #ff922d;
+  border: 2px solid #ff922d;
+  color: white;
+  padding: .7rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.biCycle:hover{
+  background-color: transparent;
+  border: 2px solid #ff922d;
+  /* color: #ff922d; */
+
+}
+
+.button{
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  color: white;
+  /* background: var(--blue-gradient); */
+  background: linear-gradient(97.05deg, #ff922d 3.76%, #ab601a 100%);
+  border: none;
+  /* border-radius: 4px; */
+  transition: all 300ms ease-in;
+}
+
+.button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  background: var(--blue-gradient);
+  /* background: linear-gradient(97.05deg, #2496d4 3.76%, #0f5276 100%); */
+}
+
+/* media queries */
+@media (min-width: 1536px) {
+  .innerWidth {
+    max-width: 1280px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .paddings {
+    padding: 4rem;
+  }
+}
+
+@media (min-width: 1280px), (min-width: 768px) {
+  .paddings {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .primaryText {
+    font-size: 1.5rem;
+  }
+  .orangeText {
+    font-size: 1.2rem;
+  }
+}
